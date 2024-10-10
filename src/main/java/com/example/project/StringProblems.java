@@ -9,6 +9,9 @@ public class StringProblems{
     // endsLy("oddy") → false
     public boolean endsLy(String x){
             //implement code here
+            if(x.substring(x.length()-2).equals("ly")){
+                return true;
+            }
         return false;
     }
 
